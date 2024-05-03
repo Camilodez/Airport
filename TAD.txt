@@ -1,0 +1,34 @@
+----------------------------------------------
+TAD Airport
+Datos minimos:
+
+name: cadena de texto con el nombre comercial del Airport
+code: cadena de texto con el nombre que usan los aviones para identificar el Airport
+lat: numero flotante de la latitud del Airport
+lon: numero flotante de la latitud del Airport
+
+Operaciones:
+
+Getters and Setters
+
+----------------------------------------------
+TAD Grafo
+Datos minimos:
+
+
+Operaciones:
+
+
+
+----------------------------------------------
+TAD Nodo
+Datos minimos:
+
+
+
+Operaciones:
+
+
+----------------------------------------------
+
+

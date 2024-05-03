@@ -14,7 +14,7 @@ Getters and Setters
 ----------------------------------------------
 TAD Grafo
 Datos minimos:
-
+listaNodo
 
 Operaciones:
 
@@ -31,4 +31,11 @@ Operaciones:
 
 ----------------------------------------------
 
+TAD Sistema
+Datos  minimos:
+
+
+Operaciones:
+Menu(): Ayuda a crear una interfaz para que el usuario pueda conocer las caracteristicas 
+de tiempo de vuelo como encontrar la ruta mas corta
 

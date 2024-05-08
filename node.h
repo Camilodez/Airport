@@ -2,21 +2,32 @@
 #define NODE_H
 
 
+#include "edge.h"
+#include "airport.h"
+#include <list>
+
 template <typename T>
-class Node
-{
-    private:
+class Node {
+private:
+    T datum; 
+    std::list<T> Edges;
+    std::string name;
+public:
 
-        T datum;
-        Node<T> *next;
+    Node(); 
+    Node(T datum, std::list<T> Edges);
+    ~Node(); 
 
-    public:
+    T getDatum();
+    void setDatum(T datum); 
 
-        Node();
-        Node(T data);
-        ~Node();
+    std::list<T> getEdges();
+    void setEdges(std::list<T> Edges);
+
+    std::string getName();
+    void setName(std::string name);
+
 
 
 };
-
 #endif // NODE_H

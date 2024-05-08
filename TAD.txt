@@ -14,25 +14,43 @@ Getters and Setters
 ----------------------------------------------
 TAD Grafo
 Datos minimos:
-listaNodo
+listaNodo: lista que contendrá todos los nodos del grafo.
 
 Operaciones:
-
-
+agregarNodo(): Añade un nodo al grafo.
+eliminarNodo(): Elimina un nodo del grafo.
+agregarArista(): Añade una arista entre dos nodos.
+encontrarRutaMasCorta(): Encuentra la ruta más corta entre dos nodos (posiblemente usando el algoritmo de Dijkstra).
 
 ----------------------------------------------
 TAD Nodo
 Datos minimos:
 
+dato:  valor que tendrá cada nodo que serán de tipo Airport.
+listaAristas:  lista donde se contendrá las aristas.
 
 
 Operaciones:
+
+Getters y Setters
+
+
+----------------------------------------------
+TAD aristas
+
+Datos minimos:
+code : cadena de caracteres que tiene le mismo nombre del aeropuerto
+Peso: : Distancia o peso de la arista, que puede representar la distancia
+
+Operaciones:
+CalcularDistancia(): Método para calcular la distancia física entre dos aeropuertos basada en sus coordenadas geográficas (latitud y longitud). 
 
 
 ----------------------------------------------
 
 TAD Sistema
 Datos  minimos:
+grafo: hace referencia al sistema completo de los aeropuertos.
 
 
 Operaciones:

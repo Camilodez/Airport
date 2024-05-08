@@ -6,25 +6,25 @@ class Airport {
 private:
     std::string name;
     std::string code;
-    float lat;
-    float lon;
+    double lat;
+    double lon;
 
 public:
     Airport(); 
-    Airport(const std::string& name, const std::string& code, float lat, float lon);
+    Airport(const std::string& name, const std::string& code, double lat, double lon);
     ~Airport(); 
 
    
-    std::string getName() const;
-    std::string getCode() const;
-    float getLat() const;
-    float getLon() const;
+    std::string getName();
+    std::string getCode();
+    float getLat();
+    float getLon();
 
    
-    void setName(const std::string& name);
-    void setCode(const std::string& code);
-    void setLat(float lat);
-    void setLon(float lon);
+    void setName( std::string name);
+    void setCode( std::string code);
+    void setLat(double lat);
+    void setLon(double lon);
 };
 
 #endif // AIRPORT_H

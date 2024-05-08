@@ -3,7 +3,7 @@
 
 Airport::Airport(){}
 
-Airport::Airport(const std::string& name, const std::string& code, float lat, float lon)
+Airport::Airport(const std::string& name, const std::string& code, double lat, double lon)
 {
     this->name = name;
     this->code = code;
@@ -15,42 +15,42 @@ Airport::~Airport(){
     
 }
 
-std::string Airport::getName() const{
+std::string Airport::getName(){
 
     return name;
 }
 
-std::string Airport::getCode() const{
+std::string Airport::getCode(){
 
     return code;
 }
 
-float Airport::getLat() const{
+float Airport::getLat() {
 
     return lat;
 }
 
-float Airport::getLon() const{
+float Airport::getLon(){
 
     return lon;
 }
 
-void Airport::setName(const std::string& name){
+void Airport::setName( std::string name){
 
     this->name = name;
 }
 
-void Airport::setCode(const std::string& code){
+void Airport::setCode( std::string code){
 
     this->code = code;
 }
 
-void Airport::setLat(float lat){
+void Airport::setLat(double lat){
 
     this->lat = lat;
 }
 
-void Airport::setLon(float lon){
+void Airport::setLon(double lon){
 
     this->lon = lon;
 }
